@@ -1,0 +1,50 @@
+name: basic_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.8.0
+  url_launcher: ^6.3.1
+  permission_handler: ^11.3.1
+  flutter_spinkit: ^5.2.1
+  flutter_launcher_icons: ^0.14.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.jpg
+    - assets/images/about.jpg
+    - assets/images/Contact.jpg
+    - assets/images/destination.jpg
+    - assets/images/INDONESIA.jpg
+    - assets/images/JAPAN.jpg
+    - assets/images/THAILAND.jpg
+    - assets/images/VIETNAM.jpg
+    - assets/images/OMAN.jpg
+    - assets/images/VAGAMON.jpg
+    - assets/images/UZBEKISTAN.jpg
+    - assets/images/TURKEY.jpg
+    - assets/images/profilepic.jpg
+    - assets/images/playstore.png  
+
+flutter_icons:
+  android: true 
+  ios: true     
+  image_path: "assets/images/playstore.png"  
